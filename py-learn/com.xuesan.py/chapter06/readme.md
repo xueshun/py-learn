@@ -15,3 +15,6 @@ global 关键字
 
 ### 函数的迭代器与生成器
 
+#### yield (generator)
+
+
