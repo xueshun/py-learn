@@ -22,5 +22,5 @@ class Player():  # 定义一个类
         print('%s: %s' % (self.name, self.hp))
 
 
-user1 = Player('tom', 100)
+user1 = Player('tom', 100)  #类的实例化
 user1.print_role()
