@@ -30,7 +30,7 @@ class ConsumerThread(Thread):
         global queue
         while True:
             num = queue.get()
-            queue.task_done
+            queue.task_done()
             print('消费者 %s 消耗了数据 %s ' % (name, num))
             t = random.randint(1, 5)
             time.sleep(t)
