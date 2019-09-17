@@ -1,5 +1,6 @@
 # encoding:utf-8
 # beautifulSoup使用
+# beautifulSoup 使用文档 https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
 
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
