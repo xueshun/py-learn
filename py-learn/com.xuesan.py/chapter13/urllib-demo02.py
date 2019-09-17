@@ -20,7 +20,7 @@ print(response02.read().decode('utf-8'))
 # 异常抓取
 print('测试抓取请求超时异常')
 try:
-    response3 = request.urlopen('http://httpbin.org/get', timeout=0.1)
+    response3 = urllib.request.urlopen('http://httpbin.org/get', timeout=0.1)
 except urllib.error.URLError as e:
     if isinstance(e.reason, socket.timeout):
         print('TIME OUT')
